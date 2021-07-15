@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/title_notifications">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_get_notifications"
+            android:title="@string/show_notifications"/>
+        <ListPreference
+            android:defaultValue="60 seconds"
+            android:entries="@array/period_key_list"
+            android:entryValues="@array/period_key_list"
+            android:key="list_preference_period"
+            android:title="@string/period_checking_mail" />
+    </PreferenceCategory>
+</PreferenceScreen>

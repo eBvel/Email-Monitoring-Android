@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mailbox Monitoring</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="remember_me">Remember me</string>
+    <string name="to_connect">To Connect</string>
+    <string name="title_notifications">NOTIFICATIONS</string>
+    <string name="show_notifications">Show notifications</string>
+    <string name="period_checking_mail">Period of checking the mail</string>
+</resources>
